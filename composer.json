@@ -1,0 +1,25 @@
+{
+  "name": "adevpmftc/laravel-custom-logging",
+  "description": "Custom logging for AWS cloudwatch containers",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AdevPmftc\\LaravelCustomLogging\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AdevPmftc\\LaravelCustomLogging\\CustomLoggingServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Chris Bautista",
+      "email": "chris.bautista@coreproc.com"
+    }
+  ],
+  "require": {}
+}
